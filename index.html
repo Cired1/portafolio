@@ -16,200 +16,209 @@
     <title>Bryan Abundis</title>
 </head>
 
-<body data-dark>
+<body>
 
-    <header class="header">
-        <section class="header-content container">
-            <div class="logo-container">
-                <img src="assets/logo.png" alt="Logo">
-                <h1>Portafolio</h1>
-            </div>
+    <header class="header container">
+        <a class="header-logo" href="https://github.com/Cired1" target="_blank" rel="noopener">
+            BA
+        </a>
+        <nav class="navbar">
+            <ul class="navbar-list">
+                <li cla>
+                    <a href="#projects">Proyectos</a>
+                </li>
+                <li>
+                    <a href="#tech">Tecnologías</a>
+                </li>
+                <li>
+                    <a href="#contact">Contacto</a>
+                </li>
+            </ul>
 
-            <nav class="nav-menu">
-                <button class="btn btn-menu"><i class="fas fa-bars"></i></button>
-                <ul>
-                    <li><a href="#acerca">Acerca de mí</a></li>
-                    <li><a href="#tecnologias">Tecnologías</a></li>
-                    <li><a href="#proyectos">Proyectos</a></li>
-                    <li><a href="#contacto">Contacto</a></li>
-                </ul>
-                <!-- <button class="btn btn-dark-mode"><i class="fas fa-sun"></i></button> -->
-            </nav>
-        </section>
+            <button class="btn-menu">
+                <i class="fas fa-bars fa-2x"></i>
+            </button>
+
+            <button class="btn-theme">
+                <i class="fas fa-moon fa-2x"></i>
+            </button>
+        </nav>
+
     </header>
 
     <aside class="panel">
         <nav class="menu">
             <ul>
-                <li><a href="#acerca">Acerca de mí</a></li>
-                <li><a href="#tecnologias">Tecnologías</a></li>
-                <li><a href="#proyectos">Proyectos</a></li>
-                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#tech">Tecnologías</a></li>
+                <li><a href="#contact">Contacto</a></li>
             </ul>
         </nav>
     </aside>
 
-    <main class="container">
+    <main class="main container">
 
-        <section id="acerca" class="section">
-            <h2><u>ACERCA</u></h2>
-            <p class="about">Hola, soy Bryan Abundis.</p>
-            <br>
-            <p class="about">Ingeniero en Sistemas Computacionales.</p>
-            <br>
-            <p class="desc">Me dedico al desarrollo web. Me gusta aprender nuevas tecnologías y probar cosas nuevas en
-                cada proyecto
-                que hago.</p>
+        <section class="hero">
+            <h1 class="hero-title">Hola, mi nombre es <span class="hero-name">Bryan Abundis</span>.</h1>
+            <div class="hero-about">
+                <p>Soy Ingeniero en Sistemas Computacionales y me dedico al desarrollo web. Me gusta probar nuevas
+                    tecnologías en cada proyecto que realizo.</p>
+            </div>
         </section>
 
-        <hr>
+        <!--PROYECTOS-->
 
-        <section id="tecnologias" class="section">
-            <h2><u>TECNOLOGÍAS</u></h2>
-            <section class="grid">
-                <figure>
-                    <img class="tecnologia" src="assets/html5.svg" alt="HTML5">
-                    <figcaption>HTML5</figcaption>
+        <section id="projects" class="projects">
+            <h2 class="section-title">Proyectos</h2>
+
+            <article class="project-container">
+                <img class="project-image" src="assets/blog-css.png" alt="Proyecto">
+                <section class="project-content">
+                    <h3>Blog</h3>
+                    <p class="project-description">Blog creado con React donde se muestran artículos a traves de la API
+                        de
+                        Wordpress.</p>
+                    <ul class="project-skill-list">
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>Wordpress API</li>
+                    </ul>
+                    <ul class="project-links">
+                        <li>
+                            <a href="https://github.com/Cired1/blog-react" target="_blank" rel="noopener"><i
+                                    class="fab fa-github"></i> Codígo</a>
+                        </li>
+                        <li>
+                            <a href="https://blog-css.netlify.app/" target="_blank" rel="noopener"><i
+                                    class="fas fa-external-link-alt"></i> Demo</a>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+            <article class="project-container">
+                <img class="project-image" src="assets/blog-css.png" alt="Proyecto">
+                <section class="project-content">
+                    <h3>Blog</h3>
+                    <p class="project-description">Blog creado con React donde se muestran artículos a traves de la API
+                        de
+                        Wordpress.</p>
+                    <ul class="project-skill-list">
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>Wordpress API</li>
+                    </ul>
+                    <ul class="project-links">
+                        <li>
+                            <a href="https://github.com/Cired1/blog-react" target="_blank" rel="noopener"><i
+                                    class="fab fa-github"></i> Codígo</a>
+                        </li>
+                        <li>
+                            <a href="https://blog-css.netlify.app/" target="_blank" rel="noopener"><i
+                                    class="fas fa-external-link-alt"></i> Demo</a>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+            <article class="project-container">
+                <img class="project-image" src="assets/blog-css.png" alt="Proyecto">
+                <section class="project-content">
+                    <h3>Blog</h3>
+                    <p class="project-description">Blog creado con React donde se muestran artículos a traves de la API
+                        de
+                        Wordpress.</p>
+                    <ul class="project-skill-list">
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>Wordpress API</li>
+                    </ul>
+                    <ul class="project-links">
+                        <li>
+                            <a href="https://github.com/Cired1/blog-react" target="_blank" rel="noopener"><i
+                                    class="fab fa-github"></i> Codígo</a>
+                        </li>
+                        <li>
+                            <a href="https://blog-css.netlify.app/" target="_blank" rel="noopener"><i
+                                    class="fas fa-external-link-alt"></i> Demo</a>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+        </section>
+
+        <!--HABILIDADES-->
+
+        <section id="tech" class="tech">
+            <h2 class="section-title">Habilidades</h2>
+
+            <section class="tech-container">
+                <figure class="tech-item">
+                    <img src="assets/html5.svg" alt="html5">
+                    <figcaption class="tech-item-name">HTML5</figcaption>
                 </figure>
-                <figure>
-                    <img class="tecnologia" src="assets/css.svg" alt="CSS3">
-                    <figcaption>CSS3</figcaption>
+                <figure class="tech-item">
+                    <img src="assets/css.svg" alt="css">
+                    <figcaption class="tech-item-name">CSS3</figcaption>
                 </figure>
-                <figure>
-                    <img class="tecnologia" src="assets/bootstrap.svg" alt="BOOTStRAP">
-                    <figcaption>BOOTSTRAP</figcaption>
+                <figure class="tech-item">
+                    <img src="assets/bootstrap.svg" alt="bootstrap">
+                    <figcaption class="tech-item-name">Bootstrap</figcaption>
                 </figure>
-                <figure>
-                    <img class="tecnologia" src="assets/javascript.svg" alt="JAVASCRIPT">
-                    <figcaption>JAVASCRIPT</figcaption>
+                <figure class="tech-item">
+                    <img src="assets/javascript.svg" alt="javascript">
+                    <figcaption class="tech-item-name">JavaScript</figcaption>
                 </figure>
-                <figure>
-                    <img class="tecnologia" src="assets/react.svg" alt="REACT">
-                    <figcaption>REACT</figcaption>
+                <figure class="tech-item">
+                    <img src="assets/react.svg" alt="react">
+                    <figcaption class="tech-item-name">React</figcaption>
                 </figure>
-                <figure>
-                    <img class="tecnologia" src="assets/git.svg" alt="GIT">
-                    <figcaption>GIT</figcaption>
+                <figure class="tech-item">
+                    <img src="assets/git.svg">
+                    <figcaption class="tech-item-name">Git</figcaption>
                 </figure>
-                <figure>
-                    <img class="tecnologia" src="assets/github.svg" alt="GITHUB">
-                    <figcaption>GITHUB</figcaption>
+                <figure class="tech-item">
+                    <img src="assets/github.svg">
+                    <figcaption class="tech-item-name">Github</figcaption>
                 </figure>
             </section>
+
         </section>
 
-        <hr>
+        <!--CONTACTO-->
 
-        <section id="proyectos" class="section">
-            <h2><u>PROYECTOS</u></h2>
-            <section class="grid">
-
-                <a href="https://cired1.github.io/library/" class="proyecto" target="_blank">
-                    <article class="proyecto-card">
-                        <img class="proyecto-img" src="assets/p1.png" alt="Proyecto Imagen">
-                        <h3>Librería Virtual</h3>
-                        <p class="proyecto-desc">Librería virtual que utiliza LocalStorage para guardar la información
-                            de cada libro que se
-                            ingrese a traves del formulario. </p>
-                        <ul class="tech-list">
-                            <li>HTML5</li>
-                            <li>CSS3</li>
-                            <li>JavaScript</li>
-                        </ul>
-                    </article>
-                </a>
-
-
-                <a href="https://cired1.github.io/pokemon-spa/" class="proyecto" target="_blank">
-                    <article class="proyecto-card">
-                        <img class="proyecto-img" src="assets/p2.png" alt="Proyecto Imagen">
-                        <h3>Pokemon SPA</h3>
-                        <p class="proyecto-desc">SPA que recopila información acerca de la franquicia de videojuegos
-                            Pokemon, usando la
-                            API de Pokemon.</p>
-                        <ul class="tech-list">
-                            <li>HTML5</li>
-                            <li>CSS3</li>
-                            <li>JavaScript</li>
-                        </ul>
-                    </article>
-                </a>
-
-                <a href="https://blog-css.netlify.app/" class="proyecto" target="_blank">
-                    <article class="proyecto-card">
-                        <img class="proyecto-img" src="assets/blog-css.png" alt="Proyecto Imagen">
-                        <h3>Blog</h3>
-                        <p class="proyecto-desc">Blog creado con React, el cual obtiene los posts a tráves de la API de Wordpress</p>
-                        <ul class="tech-list">
-                            <li>HTML5</li>
-                            <li>CSS3</li>
-                            <li>JavaScript</li>
-                            <li>React</li>
-                        </ul>
-                    </article>
-                </a>
-
-            </section>
-        </section>
-
-        <hr>
-
-        <section id="contacto" class="section">
-            <h2><u>CONTACTO</u></h2>
-            <!-- action="https://formsubmit.co/edabundis@gmail.com" -->
-            <form class="form-contacto" autocomplete="off">
-                <legend>Envía tus comentarios</legend>
-
-                <input type="text" name="name" placeholder="Escribe tú nombre" title="Completa este campo" required>
-
-                <input type="email" name="email" placeholder="Escribe tú correo" title="Escribe un correo valido"
-                    pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
-
-                <input type="text" name="subject" placeholder="Asunto a tratar" title="El asunto no puede estar vacío"
-                    required>
-
-                <textarea name="comments" cols="50" rows="5" placeholder="Escribe tus comentarios"
-                    title="El comentario no debe exceder los 255 caracteres" data-pattern="^.{1,255}$"
-                    required></textarea>
-
-                <input type="submit" value="Enviar">
-
-                <div class="form-contacto-loader none">
-                    <img src="assets/loader.svg" alt="Cargando">
-                </div>
-                <div class="form-contacto-response none">
-                    <p>Los datos han sido enviados</p>
-                </div>
-            </form>
-        </section>
-
-    </main>
-
-    <footer class="footer">
-        <section class="footer-content container">
+        <section id="contact" class="contact">
+            <h2 class="section-title">Contacto</h2>
             <ul class="social-links">
                 <li>
-                    <a href="">
-                        <i class="fab fa-linkedin"></i>
+                    <a href="https://github.com/Cired1" target="_blank" rel="noopener">
+                        <i class="fab fa-github"></i> Github
                     </a>
                 </li>
                 <li>
-                    <a href="https://github.com/Cired1" target="_blank">
-                        <i class="fab fa-github"></i>
+                    <a href="mailto:edabundis@gmail.com">
+                        <i class="far fa-envelope"></i> Email
                     </a>
                 </li>
             </ul>
         </section>
-    </footer>
 
-    <button class="btn-inicio none">
-        <a href="#">
+        <a class="btn-return" href="#">
             <i class="fas fa-arrow-up"></i>
         </a>
-    </button>
+    </main>
 
+    <!--FOOTER-->
+    <footer class="footer">
+        <p>© 2021 Bryan Abundis</p>
+    </footer>
 
     <script src="js/index.js"></script>
+
 </body>
 
 </html>
