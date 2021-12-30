@@ -10,6 +10,14 @@ const data = [
     code: "https://github.com/Cired1/filmtv",
   },
   {
+    name: "Pokedex",
+    description: "Pokedex creada con React, en ella se encuentra información variada de los distintos Pokemon.",
+    path_image: "assets/pokedex.png",
+    tech: ["HTML5", "CSS3", "JavaScript", "React", "Pokemon API"],
+    demo: "https://pokedex2-cired.netlify.app",
+    code: "https://github.com/Cired1/pokedex-react",
+  },
+  {
     name: "Blog",
     description: "Blog creado con React donde se muestran artículos a traves de la API de Wordpress.",
     path_image: "assets/blog-css.png",
@@ -17,7 +25,6 @@ const data = [
     demo: "https://blog-css.netlify.app/",
     code: "https://github.com/Cired1/blog-react",
   },
-
 ];
 
 //Funciones
