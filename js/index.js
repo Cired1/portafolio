@@ -2,12 +2,12 @@
 //Proyectos
 const data = [
   {
-    name: "FilmTv",
-    description: "Página web en el cual se encuentra información detallada de una gran variedad de películas y series. Creada con React y TMDB Api",
-    path_image: "assets/filmtv.png",
+    name: "FilmRed",
+    description: "Enciclopedia de películas y series de tv, creada con información de la API de TMDB.",
+    path_image: "assets/filmred.png",
     tech: ["HTML5", "CSS3", "JavaScript", "React", "TMDB API"],
-    demo: "https://filmtv-cired.netlify.app/",
-    code: "https://github.com/Cired1/filmtv",
+    demo: "https://filmred-cired.netlify.app/",
+    code: "https://github.com/Cired1/filmred",
   },
   {
     name: "Pokedex",
