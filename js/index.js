@@ -10,6 +10,14 @@ const data = [
     code: "https://github.com/Cired1/filmred",
   },
   {
+    name: "Covid Tracker",
+    description: "Aplicación Web que tiene la funcionalidad de mostrar diferentes datos sobre el Covid-19 alrededor del mundo.",
+    path_image: "assets/covidtracker.png",
+    tech: ["HTML5", "CSS3", "JavaScript", "React", "COVID-19 API"],
+    demo: "https://trackercov-cired.netlify.app ",
+    code: "https://github.com/Cired1/covid-tracker",
+  },
+  {
     name: "Pokedex",
     description: "Pokedex creada con React, en ella se encuentra información variada de los distintos Pokemon.",
     path_image: "assets/pokedex.png",
