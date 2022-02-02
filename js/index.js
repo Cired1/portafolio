@@ -10,6 +10,14 @@ const data = [
     code: "https://github.com/Cired1/filmred",
   },
   {
+    name: "Fake Store",
+    description: "Aplicación web que simula el comportamiento de un carrito de compras con la información obtenida a través de la Fake Store API.",
+    path_image: "assets/projects/fakestore.png",
+    tech: ["HTML5", "CSS3", "JavaScript", "React", "Fake Store API"],
+    demo: "https://fakestore-cired.netlify.app/",
+    code: "https://github.com/Cired1/fakestore",
+  },
+  {
     name: "Covid Tracker",
     description: "Aplicación Web que tiene la funcionalidad de mostrar diferentes datos sobre el Covid-19 alrededor del mundo.",
     path_image: "assets/projects/covidtracker.png",
@@ -33,14 +41,14 @@ const data = [
     demo: "https://pokedex2-cired.netlify.app",
     code: "https://github.com/Cired1/pokedex-react",
   }, */
-  {
+  /* {
     name: "Blog",
     description: "Blog creado con React donde se muestran artículos a traves de la API de Wordpress.",
     path_image: "assets/projects/blog-css.png",
     tech: ["HTML5", "CSS3", "JavaScript", "React", "Wordpress API"],
     demo: "https://blog-css.netlify.app/",
     code: "https://github.com/Cired1/blog-react",
-  },
+  }, */
 ];
 
 //Funciones
