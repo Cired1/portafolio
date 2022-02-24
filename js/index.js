@@ -5,7 +5,7 @@ const data = [
     name: "FilmRed",
     description: "Enciclopedia de películas y series de tv, creada con información de la API de TMDB.",
     path_image: "assets/projects/filmred.png",
-    tech: ["HTML5", "CSS3", "JavaScript", "React", "TMDB API"],
+    tech: ["HTML5", "CSS3", "JavaScript", "React", "Redux Toolkit", "TMDB API"],
     demo: "https://filmred-cired.netlify.app/",
     code: "https://github.com/Cired1/filmred",
   },
