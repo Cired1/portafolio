@@ -1,4 +1,3 @@
-
 //Proyectos
 const data = [
   {
@@ -18,12 +17,12 @@ const data = [
     code: "https://github.com/Cired1/fakestore",
   },
   {
-    name: "Covid Tracker",
-    description: "Aplicación Web que tiene la funcionalidad de mostrar diferentes datos sobre el Covid-19 alrededor del mundo.",
-    path_image: "assets/projects/covidtracker.png",
-    tech: ["HTML5", "CSS3", "JavaScript", "React", "COVID-19 API"],
-    demo: "https://trackercov-cired.netlify.app ",
-    code: "https://github.com/Cired1/covid-tracker",
+    name: "Example Net",
+    description: "Landing page básica con diseño responsivo",
+    path_image: "assets/projects/examplenet.png",
+    tech: ["HTML5", "CSS3", "JavaScript", "React"],
+    demo: "https://examplenet-cired.netlify.app/",
+    code: "https://github.com/Cired1/landing-page",
   },
   {
     name: "Crypto Data",
@@ -33,6 +32,15 @@ const data = [
     demo: "https://cryptodata-cired.netlify.app/",
     code: "https://github.com/Cired1/crypto-data",
   },
+  {
+    name: "Covid Tracker",
+    description: "Aplicación Web que tiene la funcionalidad de mostrar diferentes datos sobre el Covid-19 alrededor del mundo.",
+    path_image: "assets/projects/covidtracker.png",
+    tech: ["HTML5", "CSS3", "JavaScript", "React", "COVID-19 API"],
+    demo: "https://trackercov-cired.netlify.app ",
+    code: "https://github.com/Cired1/covid-tracker",
+  },
+
   /* {
     name: "Pokedex",
     description: "Pokedex creada con React, en ella se encuentra información variada de los distintos Pokemon.",
